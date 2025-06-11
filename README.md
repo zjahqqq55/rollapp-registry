@@ -94,3 +94,6 @@ Please follow the instructions for listing a RollApp:
 A community moderator will then begin a conversation with you in Discord. Please follow attentively to get the listing process fulfilled quickly.
 
 If you have any question please feel free to reach out to the coreteam and community on Discord. We're here for you!
+
+## Visualization
+Run `python3 scripts/visualize_rollapps.py` to generate a bar chart showing the number of RollApps per environment. The image will be saved as `rollapps_count.png` in the repository root.
