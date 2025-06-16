@@ -24,6 +24,7 @@ def main():
     plt.figure(figsize=(8, 4))
     plt.bar(counts.keys(), counts.values(), color='skyblue')
     plt.title('RollApps Count per Environment')
+    plt.xlabel('Environment')
     plt.ylabel('Number of RollApps')
     for i, v in enumerate(counts.values()):
         plt.text(i, v + max(counts.values()) * 0.01, str(v), ha='center')
